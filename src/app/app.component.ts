@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'mw-app',
+  template: `
+  <h1>My App</h1>
+  <p>Keeping track of the media I want to watch.</p>
+  `
 })
-export class AppComponent {
-  title = 'my-app';
-}
+export class AppComponent {}
